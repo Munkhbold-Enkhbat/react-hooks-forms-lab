@@ -1,7 +1,19 @@
 import React from "react";
+import { useState } from "react/cjs/react.production.min";
 import { v4 as uuid } from "uuid";
 
+// const newItem = {
+//   id: uuid(),
+//   name: itemName,
+//   category: itemCategory
+// }
+
 function ItemForm(props) {
+
+  // const [newItemName, setNewItemName] = useState("")
+  // const [newItemCategory, setNewItemCategory] = useState("")  
+
+
   return (
     <form className="NewItem">
       <label>
