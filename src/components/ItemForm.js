@@ -11,9 +11,12 @@ import { v4 as uuid } from "uuid";
 function ItemForm(props) {
 
   // const [newItemName, setNewItemName] = useState("")
-  // const [newItemCategory, setNewItemCategory] = useState("")  
+  // const [newItemCategory, setNewItemCategory] = useState("Produce")  
 
+  // function handleSubmitEvent() {
 
+  // }
+  
   return (
     <form className="NewItem">
       <label>
